@@ -24,10 +24,12 @@ a{
 	object-fit: cover;
 }*/
 /*p{
-	color:;
-	text-align:;
-	font-size:;
-	line-height:;
+	color: black;
+	text-align:1.4rem;
+	font-size:5px;
+	line-height:2.5rem;
+	font-weight:300;
+	letter-spacing: .05rem;
 }*/
 /* Hero Section*/
 #hero{
@@ -158,6 +160,7 @@ a{
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: 50px;
 }
  /*.section-item{
 	flex-basis: 80%;
@@ -173,6 +176,7 @@ a{
 	margin: 10px 5%;
 	position:relative;
 	z-index: 1;
+	overflow: hidden;
 }*/
 #services .service-item::after{
 	content: '';
